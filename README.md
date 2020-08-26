@@ -6,6 +6,7 @@
 
 ```
 import os, re
+from cj_crawling.koofs import *
 os.chdir(r'C:\Users\cjcho\Desktop\새 폴더 (2)\새 폴더 (2)')
 download_dir=os.getcwd()
 exe_path=r'c:\bin\chromedriver.exe'
