@@ -4,7 +4,7 @@
 
 기간별, 지점별 통째로 자료 가지고 오는 코드 
 
-```
+```python
 import os, re
 from cj_crawling.koofs import *
 os.chdir(r'C:\Users\cjcho\Desktop\새 폴더 (2)\새 폴더 (2)')
@@ -30,7 +30,7 @@ Driver.driver.quit()
 
 최근 자료 가지고 오는 코드 
 
-```
+```python
 Driver=Driver_open(download_dir=download_dir,exe_path=exe_path)
 Driver.driver.get('http://www.khoa.go.kr/oceangrid/koofs/kor/oldobservation/obs_past_search.do')
 Driver.main()
